@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -lt 2]; then
-    echo "Usage: npm run send -- <message> <branch> [origin]"
+    echo "Utilisation: npm run send -- <message> <branch> [origin -> "origin"]"
     exit 1
 fi
 
