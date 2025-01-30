@@ -1,12 +1,6 @@
 @ECHO OFF
 SETLOCAL
 
-SET arg1="%~1"
-SET arg2="%~2"
-
-ECHO Argument 1: %arg1%
-ECHO Argument 2: %arg2%
-
 IF "%~1" EQU "" (
     ECHO "Usage: npm run send -- <message> <branch> [origin :: 'origin']"
     EXIT /b 1
