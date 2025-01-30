@@ -5,4 +5,4 @@
 /dist
 
 tsconfig.json
-package-*.json
+package*.json
