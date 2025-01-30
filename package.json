@@ -5,7 +5,7 @@
   },
   "scripts": {
     "compile": "npx tsc",
-    "minify": "esbuild dist/app.js --minify --outfile=dist/app.min.js",
+    "minify": "esbuild dist/**/* --minify --outdir=js/ --allow-overwrite",
     "watch": "chokidar \"src/**/*\" -c \"npm run compile && npm run minify\"",
     "send-linux": "sh pusher.sh",
     "send-win": "cmd /c pusher.bat"
